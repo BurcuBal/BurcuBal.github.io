@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burcu Bal</title>
+</head>
+<body>
+    <aside class="helper">Sağa Kaydır</aside>
+    <!-- <a href="#about"><img class="ok" src="images/bbbbb.png" alt="arrow"></a> -->
+    <main>
+      <figure class="rellax">
+    <div class="rellax-cap">
+        <img class="profile-picture" src="images/101265629.jpg" alt="Burcu Bal">
+        <div class="paragraf-kutu">
+        <p>Merhaba ben Burcu Bal 2001 Şubat doğumluyum. Eskişehir Osmangazi Üniversitesi Bilgisayar Programcılığı bölümünde öğrenciyim.</p>
+        </div>
+        <figcaption class="rellax" data-rellax-speed="1">Burcu Bal</figcaption>
+    </div>
+      </figure>
+      
+      <figure id="about" class="rellax rellax-about">   
+        <div class="rellax-cap">
+            <div class="rellax-position">
+                <h1>HAKKIMDA</h1>
+                <p>Kendimi yazılım alanında geliştirip yurt dışına çıkmak istiyorum. Bu konuda çok kararlıyım. Sağlıklı olmak benim için çok önemli düzenli bir şekilde spor yapıp beslenmeme dikkat ediyorum.</p>
+                <h2>Eğitim Hayatım</h2>
+                <p>Mehmetçik İlk-Ortaokulu 2007-2015<br>
+                Bayrampaşa Tuna Anadolu Lisesi 2015-2016<br>
+                Ali Rıza Özderici Anadolu Lisesi 2016-2017<br>
+                Şair Abay Konanbay Anadolu Lisesi  2017-2019 <br>
+                Eskişehir Osmangazi Üniversitesi 2021-
+                </p>
+                <h2>Yeteneklerim</h2>
+                <p>Voleybol, Basketbol, Muay Thai, Taekwondo, Fitness, Gitar, Yüzme</p>
+            </div>  
+        </div>
+        <figcaption class="rellax rellax-text" data-rellax-speed="1">Hakkımda-Eğitim</figcaption>
+      </figure>
+      <figure class="rellax rellax-iletisim" >
+        <div class="rellax-cap">
+            <img src="images/socialmedia.png" alt="Burcu Bal">
+        </div>
+        <figcaption class="rellax rellax-iletisim" data-rellax-speed="1">İletişim</figcaption>
+      </figure>
+
+      <div class="footer-social-icons">
+        <h3 class="_14">Beni takip edin</h3>
+        <ul class="social-icons">
+           <a href="https://www.instagram.com/brcubalx"> <i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://github.com/BurcuBal" class="social-icon"> <i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+
+      <div class="contact-form">
+        <div class="form-text"> <h1>CONTACT ME</h1></div>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="isim"/>
+                </div>
+                <div class="form-group">
+               
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-mail "/>
+                </div>
+                <div class="form-group">
+                
+                    <textarea name="message"class="form-control"id="message" rows="5" placeholder="Mesajın..."></textarea>
+                </div>
+            <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+        
+    </div>
+    
+    </main>
+
+    
+    <script src="https://cdn.rawgit.com/dixonandmoe/rellax/master/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax('.rellax', {
+        horizontal: true,
+        vertical: false,
+        speed: 1.5
+      });
+    </script>
+</body>
+</html>
